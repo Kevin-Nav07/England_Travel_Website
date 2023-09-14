@@ -6,4 +6,79 @@
 .header {
     height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(Images/eng-img01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+
+
+
+}
+
+
+.header img {
+    /* editing logo */
+    width: 170px;
+    height: 80px;
+    float: left;
+
+}
+
+.login-button {
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+
+}
+
+/* editing the main text on the home page */
+.header h1 {
+    padding-top: 230px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+
+.header p {
+    margin: 18px 0;
+}
+
+
+/* 
+Search box */
+
+.input-group {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+}
+
+.form-control {
+    /* making the search bar circular */
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important
+}
+
+.input-group-text {
+    /* for button near search box */
+    width: 100px;
+    height: 40px;
+    background-image: linear-gradient(#b07b3f, #ed3c36);
+    border: 0 !important;
+    color: #fff !important;
+    padding: 0 25px !important;
+    border-radius: 50px !important;
+    */ box-shadow: none !important;
+
 }
